@@ -2,6 +2,7 @@
 
 ## Method
 - Make sure you have an access token that is valid. If not, I suggest getting one through the client credentials grant and using the `fortnitePCGameClient` client
+**OPS: It is not possible to use `fortnitePCGameClient` client anymore**
 
 - Get the `device_code` from sending a [get device authorization](https://github.com/MixV2/EpicResearch/blob/master/docs/account/endpoints/get_device_authorization.md) and then open the `verification_uri_complete` URL in a browser and login to your account
 
